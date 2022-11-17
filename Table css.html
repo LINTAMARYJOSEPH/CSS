@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<title>Table</title>
+<head>
+	<style>
+		
+		div{
+			display: inline-block;
+			font-family:serif;
+			
+		}
+		table,th,td{
+			border: 1px solid black;
+
+
+		}
+		table{
+			width: 70%;
+			height: 100%;
+			margin-left: 100px;
+		}
+		[class|="glyphicon glyphicon-eye-open"]
+		{
+		color:deepskyblue;
+	    }
+		[class|="glyphicon glyphicon-pencil"]
+		{
+		color:gold;
+		}
+		[class|="glyphicon glyphicon-trash"]
+		{
+		color:red;
+		}
+
+
+	</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+</head>
+<body>
+	<div style="margin:100px;">
+	
+			 <label for="entries">Show 
+             <select name="entries" id="entries">
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5" selected>5</option>
+             </select><p style="display: inline-block;margin-left: 10px;"> entries</p>   
+    </div>
+
+    <div style="margin:100px;">
+    	<p style="font-size:xx-large;">Customer <b>Details</b> </p>    
+
+    </div>
+
+    <div style="margin:100px;">
+    	<input type="text" name="search bar" placeholder="search">
+    </div>
+
+    <table style="font-family: serif;">
+  <tr>
+    <th>#</th>
+    <th>Name</th>
+    <th>Address</th>
+    <th>City</th>
+    <th>pincode</th>
+    <th>country</th>
+    <th>Actions</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Thomas Hardy</td>
+    <td>89 Chiarsco rd</td>
+    <td>Portland</td>
+    <td>91219</td>
+    <td>USA</td>
+    <td><i class="glyphicon glyphicon-eye-open"></i>   
+      <i class="glyphicon glyphicon-pencil"></i>   
+      <i class="glyphicon glyphicon-trash"></i></td> 
+
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Thomas Hardy</td>
+    <td>89 Chiarsco rd</td>
+    <td>Portland</td>
+    <td>91219</td>
+    <td>USA</td>
+    <td><i class="glyphicon glyphicon-eye-open"></i>   
+      <i class="glyphicon glyphicon-pencil"></i>   
+      <i class="glyphicon glyphicon-trash"></i></td> 
+
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Thomas Hardy</td>
+    <td>89 Chiarsco rd</td>
+    <td>Portland</td>
+    <td>91219</td>
+    <td>USA</td>
+    <td><i class="glyphicon glyphicon-eye-open"></i>   
+      <i class="glyphicon glyphicon-pencil"></i>   
+      <i class="glyphicon glyphicon-trash"></i></td> 
+
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Thomas Hardy</td>
+    <td>89 Chiarsco rd</td>
+    <td>Portland</td>
+    <td>91219</td>
+    <td>USA</td>
+    <td><i class="glyphicon glyphicon-eye-open"></i>   
+      <i class="glyphicon glyphicon-pencil"></i>   
+      <i class="glyphicon glyphicon-trash"></i></td> 
+
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Thomas Hardy</td>
+    <td>89 Chiarsco rd</td>
+    <td>Portland</td>
+    <td>91219</td>
+    <td>USA</td>
+    <td><i class="glyphicon glyphicon-eye-open"></i>   
+      <i class="glyphicon glyphicon-pencil"></i>   
+      <i class="glyphicon glyphicon-trash"></i></td> 
+
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Thomas Hardy</td>
+    <td>89 Chiarsco rd</td>
+    <td>Portland</td>
+    <td>91219</td>
+    <td>USA</td>
+    <td><i class="glyphicon glyphicon-eye-open"></i>   
+      <i class="glyphicon glyphicon-pencil"></i>   
+      <i class="glyphicon glyphicon-trash"></i></td> 
+
+  </tr>
+  
+</table>
+
+<div style="margin-left:100px;">
+	<p> Showing <b>5</b> of <b>25</b> entries</p>
+	
+</div>
+<div class="btn" style="margin-left: 40%;">
+    <button>Previous</button>
+	<button style="border-radius: 50%;">1</button>
+	<button style="border-radius: 50%;">2</button>
+	<button style="border-radius: 50%; background-color: deepskyblue">3</button>
+	<button style="border-radius: 50%;">4</button>
+	<button style="border-radius: 50%;">5</button>
+	<button>Next</button>
+</div>
+
+ </body>
+</html>
